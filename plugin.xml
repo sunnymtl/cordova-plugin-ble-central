@@ -36,7 +36,7 @@
 
         <!-- frameworks -->
         <framework src="CoreBluetooth.framework" />
-        <!-- <framework src="iOSDFULibrary" type="podspec" spec="~> 4.2.2"/> -->
+        <framework src="iOSDFULibrary" type="podspec" spec="~> 4.2.2"/> 
 
         <xsl:choose>
             <xsl:when test="lower-case($DEPENDENCY_MANAGER) = 'carthage'">
